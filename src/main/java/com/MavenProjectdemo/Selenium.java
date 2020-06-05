@@ -1,5 +1,7 @@
 package com.MavenProjectdemo;
 
+import java.sql.Driver;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,6 +22,7 @@ public class Selenium {
 			String CSS ="input[name ='ConfirmPasswd']";
 			d.findElement(By.cssSelector(CSS)).click();
 			
+d.close();
 
 	}
 
