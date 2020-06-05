@@ -23,7 +23,7 @@ public class Selenium {
 			d.findElement(By.cssSelector(CSS)).click();
 			
 d.close();
-
+System .out.println("hlo world");
 	}
 
 }
