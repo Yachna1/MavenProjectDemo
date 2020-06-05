@@ -24,6 +24,7 @@ public class Selenium {
 			
 d.close();
 System .out.println("hlo world");
+d.quit();
 	}
 
 }
