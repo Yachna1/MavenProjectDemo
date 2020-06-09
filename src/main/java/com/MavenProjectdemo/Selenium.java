@@ -11,7 +11,7 @@ public class Selenium {
 	public static void main(String[] args) {
 		System.out.println("selenium is Automation Tool");
 
-			System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\hp\\Documents\\Driver\\chromedriver.exe");
 			WebDriver d = new ChromeDriver();
 			d.get("https://accounts.google.com/signup ");
 			d.findElement(By.cssSelector("#firstName")).click();
